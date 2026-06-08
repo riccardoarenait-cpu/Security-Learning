@@ -22,3 +22,4 @@ Response : Isolate Host, Terminate Process, Quarantine, Remote Access, Artefacts
 **SIMULATION**
 I ran an EDR dashboard simulator, I had to analyze detections and answer some questions, it was easy, the platform made it clear where to find the information
 ![activity](<images/Screenshot 2026-06-07 210743.png>)
+![activity](<images/Screenshot 2026-06-07 211327.png>)
