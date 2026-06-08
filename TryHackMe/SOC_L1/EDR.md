@@ -12,6 +12,7 @@ OpenEDR
 
 Symantec EDR
 
+
 Key advantages = **Visibility**, **Detection**, **Response**
 
 DIfference with AV's = AV's detect basic known threats, EDR provide surveillance and constant monitoring
