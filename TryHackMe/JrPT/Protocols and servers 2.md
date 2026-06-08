@@ -63,8 +63,11 @@ Finished: both sides onfirm
 -----------------------------------
 
 **SSH**  allows to securely connect to another system and execute remote commands
+
 commands learned = 
+
 ssh mark@10.112.156.112
+
 ssh-keygen -t ed25519 -C "your_email@example.com" (generate keys)
 
 
