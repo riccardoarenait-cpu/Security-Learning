@@ -38,7 +38,7 @@ ssh mark@10.112.156.112
 ssh-keygen -t ed25519 -C "your_email@example.com" (generate keys)
 
 
-
+![alt text](images/image-1.png)
 
 
 
