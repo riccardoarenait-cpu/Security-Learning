@@ -12,6 +12,7 @@ OpenEDR
 
 Symantec EDR
 
+-------------------------------------
 
 Key advantages = **Visibility**, **Detection**, **Response**
 
@@ -27,6 +28,7 @@ Detection : Behavioral Detection, Anomaly Detection, IOC matching, MITRE ATT&CK 
 
 Response : Isolate Host, Terminate Process, Quarantine, Remote Access, Artefacts Collection
 
+------------------------------------
 
 **SIMULATION**
 
