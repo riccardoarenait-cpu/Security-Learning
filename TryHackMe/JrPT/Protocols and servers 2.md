@@ -70,8 +70,12 @@ ssh mark@10.112.156.112
 
 ssh-keygen -t ed25519 -C "your_email@example.com" (generate keys)
 
+**SIMULATION**
 
+Goal : connecting to a given host with given credential and answering the question through commands
 ![alt text](images/image-1.png)
+
+
 
 
 
