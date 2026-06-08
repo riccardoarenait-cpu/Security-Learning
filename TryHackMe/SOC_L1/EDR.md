@@ -18,4 +18,7 @@ Telemetry collected by EDR : Process Executions and Terminations, Network Connec
 Detection : Behavioral Detection, Anomaly Detection, IOC matching, MITRE ATT&CK Mapping, Machine Learning Algorithms
 Response : Isolate Host, Terminate Process, Quarantine, Remote Access, Artefacts Collection
 
+
+**SIMULATION**
+I ran an EDR dashboard simulator, I had to analyze detections and answer some questions, it was easy, the platform made it clear where to find the information
 ![activity](<images/Screenshot 2026-06-07 210743.png>)
