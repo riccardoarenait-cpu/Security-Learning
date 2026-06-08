@@ -1,4 +1,5 @@
 Endpoint Detection and Response = series of tools designed to protect endpoints
+
 market solutions :
 
 CrowdStrike Falcon
