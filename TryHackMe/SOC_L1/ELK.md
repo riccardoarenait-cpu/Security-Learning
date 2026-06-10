@@ -8,3 +8,13 @@ Logstash = data processing engine that takes data from different sources, filter
 
 Beats = data shippers sending data to elasticsearch
 
+Kibana = web based data visualization
+
+------------------------------------
+
+**SIMULATION**
+
+I ran a Kibana simulator where I was able to explore and interact with the interface as well as getting confident with it
+
+I was asked to filter some data and use multiple functions of the app to answer questions
+<img width="1381" height="911" alt="image" src="https://github.com/user-attachments/assets/dbf7ed5e-6260-4703-98a4-208864cc7332" />
