@@ -22,3 +22,10 @@ intext  	  |intext:password	    |Returns results containing the specified word i
 
 cache   	  |cache:tryhackme.com	|Shows Google's cached version of the page
 
+wayback machine = internet archive, snapshots captured in time, useful to find old and exposed versions of a website
+
+Git = tracks changes to files overtime
+
+Amazon S3 = cloud storage platform, host files, static web content
+
+Gobuster = open source enumeration 
