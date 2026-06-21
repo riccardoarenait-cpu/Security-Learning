@@ -18,6 +18,12 @@ ipinfo = checks if the ip is tied to malicious activity
 
 URLScan.io, URL extraction tools, VirusTotal, Phishtool
 
+SPF = sender policy framework, authenticates the sender of an email
+
+DKIM = domainkeys identified mail, authentication of emails
+
+DMARC = domain based message authentication, reporting and conformance
+
 **SIMULATION**
 
 in this simulation I analyzed a malicious file from a real world scenario via anyrun, indentifying the URLs, vulerability it exploits, using the report, other tools like virustotal
