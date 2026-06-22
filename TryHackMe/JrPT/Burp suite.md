@@ -28,4 +28,7 @@ in this simulation I used the repeater to exploit a SQL injection vulnerability
 
 <img width="1400" height="949" alt="image" src="https://github.com/user-attachments/assets/c7007350-9ad0-4b1f-985f-c82a7c9b6c5b" />
 
+
+in this simulation I used intruder to conduct a pitchfork attack to brute force login credentials
+
 <img width="895" height="854" alt="image" src="https://github.com/user-attachments/assets/844b4c07-f549-41b7-834d-5a7384d4e363" />
