@@ -29,3 +29,7 @@ DMARC = domain based message authentication, reporting and conformance
 in this simulation I analyzed a malicious file from a real world scenario via anyrun, indentifying the URLs, vulerability it exploits, using the report, other tools like virustotal
 
 <img width="1918" height="951" alt="image" src="https://github.com/user-attachments/assets/082f4572-bbc9-48e0-af61-cd9b1adfe08b" />
+
+in this simulation I analyzed a phishing email with the source code, analyzed attachments, used hashing, virustotal, checked the attacker's directories
+
+<img width="1902" height="949" alt="image" src="https://github.com/user-attachments/assets/d6c46a45-e3d0-4335-82db-3e0f269fd99d" />
