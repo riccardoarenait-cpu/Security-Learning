@@ -52,3 +52,7 @@ http.response.code == 200
 http.request.method == "GET" / "POST"
 
 dns.flags.response == 0
+
+
+
+<img width="1900" height="906" alt="image" src="https://github.com/user-attachments/assets/ff714c2b-ab92-41e4-a856-7a494a3d42c4" />
