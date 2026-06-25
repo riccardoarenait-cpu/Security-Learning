@@ -77,3 +77,17 @@ in this simulation I tried 4 levels of SQLi on a test machine, based on the diff
 Level 1 : union based 
 
 <img width="750" height="500" alt="image" src="https://github.com/user-attachments/assets/bb848612-cb15-4aa2-aac6-49ecbb2d8225" />
+
+Level 2 : Authentication bypass 
+
+<img width="717" height="475" alt="image" src="https://github.com/user-attachments/assets/bd8420df-32b0-4f3a-9ca1-5c0d97cf64e9" />
+
+Level 3 : Boolean-Based Blind SQLi
+
+<img width="702" height="641" alt="image" src="https://github.com/user-attachments/assets/a0981600-1139-4bdc-b3e2-fbb59b79fbf7" />
+
+Level 4 : 
+
+<img width="708" height="683" alt="image" src="https://github.com/user-attachments/assets/a41cd7f2-cf53-4dbc-ac5f-3b05149ae6ed" />
+
+
