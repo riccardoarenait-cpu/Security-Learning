@@ -21,3 +21,34 @@ Protocol : layer 4, protocols used UDP/TCP
 Application protocol : layer 5, HTTP,FTP,...
 
 
+# statistics
+
+Resolved addressed = identify ip addresses and DNS available in th capture file
+
+Protocol Hierarchy = identify all ports in the capture file
+
+Conversation = identify all conversations between endpoints
+
+Endpoints = identify endpoints in detail
+
+---------------------------
+
+Commands query :
+
+ip.addr ==
+
+ip.src ==
+
+ip.dst ==
+
+tcp.port == 80
+
+tcp.srcport == 1234
+
+tcp.dstport == 80
+
+http.response.code == 200
+
+http.request.method == "GET" / "POST"
+
+dns.flags.response == 0
