@@ -1,6 +1,6 @@
 # MITM detection
 
-an attacker secretely intercepts and alters communication between two parties
+##an attacker secretely intercepts and alters communication between two parties
 
 Common types : packet sniffing, session highjacking, SSL stripping, DNS spoofing, IP spoofing
 
@@ -22,7 +22,7 @@ wireshark filters : arp.isgratuitous (unsolicited replies)
 
 DNS spoofing
 
-- attacker provides his IP in a DNS response
+attacker provides his IP in a DNS response
 
 indicators : multiple DNS responses, response from unexpected source, short TTL, unsolicited response
 
@@ -36,13 +36,13 @@ SSL stripping
 
 phases : 
 
-victim initiates an HTTPS request to a website
+- victim initiates an HTTPS request to a website
 
-the attacker intercepts the request
+- the attacker intercepts the request
 
-the attacker connects to the website using HTTPS but sends the response to the victim with HTTP
+- the attacker connects to the website using HTTPS but sends the response to the victim with HTTP
 
-the victim continues iteracting with HTTP
+- the victim continues iteracting with HTTP
 
 indicators : the initial request was HTTPS but it shifted to HTTP, certificate errors
 
