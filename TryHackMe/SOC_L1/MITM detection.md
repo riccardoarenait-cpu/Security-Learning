@@ -22,7 +22,7 @@ wireshark filters : arp.isgratuitous (unsolicited replies)
 
 DNS spoofing
 
-attacker provides his IP in a DNS response
+- attacker provides his IP in a DNS response
 
 indicators : multiple DNS responses, response from unexpected source, short TTL, unsolicited response
 
