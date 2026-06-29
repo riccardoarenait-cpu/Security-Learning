@@ -1,6 +1,6 @@
 # MITM detection
 
-## an attacker secretely intercepts and alters communication between two parties
+an attacker secretely intercepts and alters communication between two parties
 
 Common types : packet sniffing, session highjacking, SSL stripping, DNS spoofing, IP spoofing
 
