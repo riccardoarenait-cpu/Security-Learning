@@ -6,9 +6,10 @@ Can you gain an initial foothold, escalate your access, and ultimately log in as
 
 <img width="867" height="476" alt="image" src="https://github.com/user-attachments/assets/64dc6634-de49-4509-b701-e4810e598b82" />
 
-First step : Enumerate directories using gubuster
+First step : Enumerate directories using gubuster, with common worldlists and extension search like .php .txt
 
-<img width="1074" height="556" alt="image" src="https://github.com/user-attachments/assets/99a4eaf6-fcef-4992-8463-fd6ec81138ba" />
+<img width="989" height="682" alt="image" src="https://github.com/user-attachments/assets/ec83ac3c-9767-4208-a85c-f8082fdc1bb8" />
+
 
 The directory of interest "mail", has been found, now navigate to the directory of interest in the browser
 
