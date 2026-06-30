@@ -91,3 +91,7 @@ Types :
   | Action | Protocol | Source IP | Source port | Direction | Dest IP | Dest port | Options |
 |----------|----------|----------|----------|----------|----------|----------|----------|
 | Alert, Drop, Reject | TCP, UDP, ICMP | Any |  Any | <> | Any | Any | msg, reference, Sid, Rev |
+
+Example : alert icmp 192.168.1.56 any <> any any  (msg: "ICMP Packet From "; sid: 100001; rev:1
+
+This rule will create an alert for each ICMP packet originating from the 192.168.1.56 IP address
