@@ -18,3 +18,41 @@ Attack types :
 
 - Login form abuse = overloading authentication with attempts
 
+Attack motives = Financial loss, extortion, hacktivism, distracton, competition, reputational damage
+
+-----------
+
+### Indicators of compromise
+
+Here are common indicators found in log analysis
+
+- High request rate : 1000 GET /login
+
+- Odd user agent : curl, python-urllib
+
+- Geographic anomalies
+
+- Server error spike 503
+
+- Logic abuse
+
+  -----------
+
+  ## Mitigation techniques
+
+  **Application level**
+
+  - a secure code must be deployed so that search fields and forms can't be abused
+ 
+  - CAPTCHA against botnets
+ 
+  **Network level**
+
+  - applying CDN; reduces latency and provide load balancing
+ 
+  - WAFs
+ 
+    
+
+
+
