@@ -66,12 +66,25 @@ In this screenshot I used sysmon to detect a net administrator command I just ex
 
 in this screenshot I opened a malicious file on the VM and used sysmon to find out which commands it has executed
 
+------------
 
+## C2
 
+a process that connects back to the attackers and waits for their commands 24/7
 
+<img width="1415" height="637" alt="image" src="https://github.com/user-attachments/assets/afaf3b8e-1e6b-4cb3-bd42-7553494362da" />
 
+in this screenshot I analyzed sysmon logs detecting c2 traffic
 
+--------
 
+## Persistence
+
+Maintaining access for a long period of time
+
+Example : creating backdoor or shell, create a new user as admin
+
+trackable by security event 4720 (account creation), 4732 ()
 
 
 
