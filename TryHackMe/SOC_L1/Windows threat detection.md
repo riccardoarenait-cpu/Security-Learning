@@ -82,9 +82,21 @@ in this screenshot I analyzed sysmon logs detecting c2 traffic
 
 Maintaining access for a long period of time
 
-Example : creating backdoor or shell, create a new user as admin
+Example if accessed via RDP : creating backdoor or shell, create a new user as admin
 
-trackable by security event 4720 (account creation), 4732 ()
+trackable by security event 4720 (account creation), 4732 (user added to group), 4724 (password reset)
 
+if accessed via Phishing : they have to install a malware
 
+Methods : 
+
+- Create windows service = sc create "BadService" binpath= "C:\malware.exe" start= auto \\ IDs 1 and 4697 service creation
+
+- Create scheduled task = schtasks /create /tn "BadTask" /tr "C:\malware.exe" /sc onstart /ru System \\ IDs 1 and 4698 scheduled task creation
+
+<img width="1533" height="879" alt="image" src="https://github.com/user-attachments/assets/c061ecfa-4d2b-4253-aba5-6cbea885b2e9" />
+
+in this screenshot I investigated persistence using Sysmon
+
+----------------
 
