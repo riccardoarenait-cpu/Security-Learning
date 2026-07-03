@@ -44,3 +44,34 @@ In this screenshot I used event viewer to track a successful phishing attack usi
 
 -------------
 
+## Discovery
+
+An attacker after gaining access needs to understand the environment and find tools to carry out the attack
+
+Commands used : 
+
+- Files and folders = type <file>, Get-Content <file>, dir <folder>
+
+- Users and groups = whoami, net user, net localgroup, query user
+
+- Systems and apps = tasklist /v, systeminfo, Get-Service
+
+- Network settings = ipconfig /all, netstat -ano
+
+<img width="1343" height="742" alt="image" src="https://github.com/user-attachments/assets/1aa36351-f40c-462c-9f91-f3dc4ed14e7d" />
+
+In this screenshot I used sysmon to detect a net administrator command I just executed  
+
+<img width="1274" height="744" alt="image" src="https://github.com/user-attachments/assets/f91173fc-4264-4d79-94d3-c503358c4988" />
+
+in this screenshot I opened a malicious file on the VM and used sysmon to find out which commands it has executed
+
+
+
+
+
+
+
+
+
+
