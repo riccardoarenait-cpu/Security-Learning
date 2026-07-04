@@ -61,9 +61,13 @@ If we load the dashboar after the login as administrator, we can see a new inter
 
 <img width="1754" height="773" alt="image" src="https://github.com/user-attachments/assets/604c8698-27f6-4e9b-9e93-3e02a299e331" />
 
-We can now edit and resent the request to access the content we're looking for
+We can now edit and resend the request to access the content we're looking for
+
+<img width="1899" height="785" alt="image" src="https://github.com/user-attachments/assets/5889331c-12c6-4255-8ecb-7ca39234274c" />
+
+After putting our injected code into the application the file is visible and the exercise is concluded
 
 <img width="1897" height="801" alt="image" src="https://github.com/user-attachments/assets/55f695f4-65ad-4588-9a06-8a764489517a" />
 
-We 
+
 
