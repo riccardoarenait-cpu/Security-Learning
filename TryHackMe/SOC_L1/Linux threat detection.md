@@ -42,7 +42,31 @@ To detect service breaches the process tree is useful, if we go back process ID'
 
 In this screenshot I used the parent ID of the suspicious whoami command to move up the process tree
 
+------------
 
+### Discovery
+
+An attacker after gaining initial access will want to learn more about the environment they're in, to know how to operate
+
+Common discovery commands :
+
+- OS and filesystem discovery = pwd, ls /, env, uname -a, hostname
+
+- User and group discovery = id, whoami, w, last, cat /etc/sudoers
+
+- Process and network discovery = ps aux, top, ip a, ip r, arp -a, ss -tnlp
+
+- Cloud or sandbox discovery = systemd-detect-virt, lsmod, uptime
+
+  Especially whoami, because legitimate users will know who they are
+
+Threat actors will also specialize their discovery with commands to look for passwords, CPU GPU information, secrets
+
+Example : history | grep pass, find / -name .env, cat /proc/cpuinfo, lscpu | grep Model
+  
+<img width="935" height="380" alt="image" src="https://github.com/user-attachments/assets/97b10531-79bd-4a2b-ac7f-02f4ba0278c1" />
+
+In this screenshot I moved up the process tree to find the path of the script that initiated the hostname command
 
 
 
