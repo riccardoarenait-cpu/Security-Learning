@@ -68,7 +68,29 @@ Example : history | grep pass, find / -name .env, cat /proc/cpuinfo, lscpu | gre
 
 In this screenshot I moved up the process tree to find the path of the script that initiated the hostname command
 
+----------
 
+### Motivation for attacks
 
+Hack and forget : large scale, quick gains, intall cryptominer, enroll to botnet, use as proxy
 
+Ingress tool transfer : wget to download a file from a website, curl to make requests to a webpage, scp to transfer the file
+
+<img width="934" height="699" alt="image" src="https://github.com/user-attachments/assets/b8ad75c2-2709-417f-a3b2-5df422cb0edf" />
+
+in this screenshot I looked for installations with wget and curl to see which one was likely to be malicious, in the wget request it was under HTTPS so it doesn't look bad, in the curl request it was helper.sh which looks suspicious and fabricated
+
+----------
+
+### Dota3
+
+Malware that affects a lot of machines
+
+the botnet with more than 2000 IPs scans the internet for open SSH
+
+It brute forces the systems
+
+<img width="1015" height="248" alt="image" src="https://github.com/user-attachments/assets/c3cdb231-5a5a-44ad-87bc-9c50d5f42f6d" />
+
+in this screenshot I used grep with accepted authentication to find who successfully brute forced the machine
 
