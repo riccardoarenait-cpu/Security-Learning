@@ -16,7 +16,37 @@ Pillars of Metasploit framework:
 
 ### Vulnerabilities, exploits, payloads
 
+Vulnerability = a flaw in a target system that creates opportunity for harm
 
+Exploit = a piece of code that takes advantage of a vulnerability
+
+Payload = the code that runs of the system after the exploit succeeds
+
+Seven categories of modules :
+
+- Exploits = target a specific vulnerability on a specific platform
+
+- Auxiliary = Handles everything that's not exploitation, port scans, brute force...
+
+- Payloads = contains the code to execute on the target
+
+- Post exploitation = runs after gaining access to a system
+
+- Encoders = Transforms payload data into different formats
+
+- NOP = intruction to skip an operation
+
+- Evasion = bypasses security controls
+
+Payload types :
+
+- Singles = Self contained, delivered in a single package
+
+- Stagers = small, only job is to extablish a communication channel
+
+- Stages = Larger payloads downloaded by a stager
+
+  
 
 
 
