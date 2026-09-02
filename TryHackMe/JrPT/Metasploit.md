@@ -76,11 +76,36 @@ Six important parameters :
 
 The "set" commad assigns a parameter
 
+-----------
+
+### Port scan
+
+search portscan = commad that lists the port scan modules
+
+auxiliary/scanner/portscan/tcp = most common module
+
+use = command to use a module 
+
+nmap can also run on metasploit
+
+the auxiliary module can also perform service specific scans
+
+example : auxiliary/scanner/netbios/nbname, auxiliary/scanner/http/http_version 
+
+<img width="1630" height="806" alt="image" src="https://github.com/user-attachments/assets/b18c1004-910c-4016-88c1-8c5ef1663657" />
+
+In this screenshot I ussed the auxiliary module to find the password associated with the username "penny"
+
+db_nmap = nmap but stores everything in a database
+
+host = command that lists every host the database knows about
+
+services = command that lists every open port and the associated service
+
+creds = command that lists credentials collected
 
 
 
-
-  
 
 
 
