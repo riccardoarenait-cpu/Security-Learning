@@ -46,6 +46,40 @@ Payload types :
 
 - Stages = Larger payloads downloaded by a stager
 
+Exploit rakings : Excellent, great, good, normal, average, low, manual
+
+-----------
+
+### msfconsole
+
+Commands :
+
+Search type/plaform/cve/name : ...
+
+info
+
+help
+
+Six important parameters : 
+
+- RHOST = remote host, the target's IP address
+
+- RPORT = Remote port, the port where the vulnerable service is running
+
+- LHOST = Local host, your attacking IP address
+
+- LPORT = Local port, the port on your machine that will receive connection
+
+- PAYLOAD = the payload to deliver with the exploit
+
+- SESSION = specifies which sessions the module should run through
+
+The "set" commad assigns a parameter
+
+
+
+
+
   
 
 
