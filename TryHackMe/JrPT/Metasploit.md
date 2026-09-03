@@ -104,7 +104,23 @@ services = command that lists every open port and the associated service
 
 creds = command that lists credentials collected
 
+-----------
 
+### Meterpreter
+
+Advanced multi function payload that runs in a target system as agent is a c2 architecture
+
+it runs entirely in the target's RAM
+
+all traffic between it and your machine is encrypted
+
+multiple capabilities can be added with the load command
+
+Windows meterpreter is the original, it uses DLL injection
+
+Mettle is the cross platform counterpart
+
+others are Java/PHP/Python meterpreter
 
 
 
