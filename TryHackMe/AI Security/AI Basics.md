@@ -16,3 +16,6 @@ ML algorithm structure :
 
 - Model Optimization process = adjust algorithms to do better
 
+Deep Learning = neural networks with more than 3 layers that doesn't require labelled data, no human intervention makes it much more scalable
+
+Large Language Models: DL models that generate text by predicting the next word in a sequence, when using a chatbot, the answer given is a rapid series of predictions; they're trained with huge volumes of text, 
