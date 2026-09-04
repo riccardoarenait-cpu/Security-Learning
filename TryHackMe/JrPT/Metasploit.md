@@ -122,6 +122,26 @@ Mettle is the cross platform counterpart
 
 others are Java/PHP/Python meterpreter
 
+Meterpreter commands :
+
+- sysinfo = displays information about the target
+
+- getuid = shows the user account meterpreter is running as
+
+- getpid = returns the process ID
+
+- ps = lists running processes on the target
+
+- pwd,cd,ls = navigate directories
+
+- cat, search, download, upload...
+
+- ifconfig, netstat = network configurations
+
+Migration = moving your meterpreter session from one process to another
+
+
+
 
 
 
