@@ -142,11 +142,21 @@ Migration = moving your meterpreter session from one process to another
 
 -------------
 
+### Msfvenom
 
+Msfvenom is a command line tool that generates payloads for any target platform
 
+you can generate executables, create web shells, encode and inject payloads
 
+A basic msfvenom command has the payload, the format and the connection parameters
 
+msfvenom -p <payload> LHOST=<your_ip> LPORT=<your_port> -f <format> -o <output_file>
 
+-l = lists available payloads, example: msfvenom -l payloads | grep linux | grep meterpreter
+
+Executable formats : produce binary files that the target OS can run directly (exe, elf, apk, war)
+
+Transform formats : produce code that you embed into another tool (raw, c, powershell, python, base64)
 
 
 
