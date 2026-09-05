@@ -158,6 +158,26 @@ Executable formats : produce binary files that the target OS can run directly (e
 
 Transform formats : produce code that you embed into another tool (raw, c, powershell, python, base64)
 
+-----------
+
+### Encoding vs Evasion
+
+Encoding transforms the payload's byte frequence into a different representation
+
+most common on metasploit : -e x86/shikata_ga_nai
+
+Encoding doesn't bypass modern antivirus scans and sandboxes, but it can help with character removal and formal compliance
+
+-------------
+
+
+
+
+
+
+
+
+
 
 
 
