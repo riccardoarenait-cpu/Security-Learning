@@ -4,7 +4,7 @@ Configuration based priviledge escalation : works on patched systems, most commo
 
 Configuration Review : an audit of a host's settings, permissions, policies, services trying to identify security risks
 
-CIS benchmarka : security baselines, level 1 and level 2
+CIS benchmarks : security baseline recommendations, level 1 and level 2
 
 DISA STIGs : hardening requirements for government and military systems
 
