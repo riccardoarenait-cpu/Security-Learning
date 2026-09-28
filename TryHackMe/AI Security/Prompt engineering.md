@@ -10,7 +10,7 @@ System prompts : developer defined instructions that set the assistant's rules
 
 the instruction hierarchy isn't solid, a model treats every instruction as text no matter where it comes from, it only learns to distinguish system promts during training, meaning there isn't a 0% change a user prompt can bypass them
 
-
+Adding shots to a prompt : providing examples to define expectations 
 
 
 
