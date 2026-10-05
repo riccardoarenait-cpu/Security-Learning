@@ -36,9 +36,23 @@ Network commands :
   
 in this screeenshot I tried the commands listed above
 
+-----------
 
+PATH: environmental variable, directories can be located under PATH
 
+Capabilities: Method use for giving users higher privilegdes temporary
 
+Cron jobs: Scheduled scripts and tasks
+
+-------
+
+Automating enumeration :
+
+- LinPeas = automated script that spots priviledge escalation vulnerabilities
+
+- LinEnum = Reports all system info, cron, SUID, users
+
+- LES = Matches the kernel version against known CVEs
 
 
 
